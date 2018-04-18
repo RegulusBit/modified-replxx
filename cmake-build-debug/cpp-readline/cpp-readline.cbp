@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpp-readline"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cpp-readline\;CMake Files\cpp-readline\cmake\;CMake Files\cpp-readline\cmake\modules\;CMake Files\cpp-readline\src\;CMake Files\cpp-readline\example\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/reza/development/replxx/cmake-build-debug/cpp-readline"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-readline">
+				<Option output="/home/reza/development/replxx/cmake-build-debug/cpp-readline/src/libcpp-readline.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/reza/development/replxx/cmake-build-debug/cpp-readline/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/reza/development/replxx/cpp-readline/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/src/Makefile&quot;  VERBOSE=1 cpp-readline"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-readline/fast">
+				<Option output="/home/reza/development/replxx/cmake-build-debug/cpp-readline/src/libcpp-readline.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/reza/development/replxx/cmake-build-debug/cpp-readline/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/reza/development/replxx/cpp-readline/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/src/Makefile&quot;  VERBOSE=1 cpp-readline/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-readline-example">
+				<Option output="/home/reza/development/replxx/cmake-build-debug/cpp-readline/example/cpp-readline-example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/reza/development/replxx/cmake-build-debug/cpp-readline/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/reza/development/replxx/cpp-readline/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/example/Makefile&quot;  VERBOSE=1 cpp-readline-example"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-readline-example/fast">
+				<Option output="/home/reza/development/replxx/cmake-build-debug/cpp-readline/example/cpp-readline-example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/reza/development/replxx/cmake-build-debug/cpp-readline/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/reza/development/replxx/cpp-readline/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/example/Makefile&quot;  VERBOSE=1 cpp-readline-example/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/reza/development/replxx/cmake-build-debug/cpp-readline/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/reza/development/replxx/cpp-readline/example/main.cpp">
+			<Option target="cpp-readline-example"/>
+		</Unit>
+		<Unit filename="/home/reza/development/replxx/cpp-readline/src/Console.cpp">
+			<Option target="cpp-readline"/>
+		</Unit>
+		<Unit filename="/home/reza/development/replxx/cpp-readline/src/Console.hpp">
+			<Option target="cpp-readline"/>
+		</Unit>
+		<Unit filename="/home/reza/development/replxx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/reza/development/replxx/cpp-readline/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpp-readline\"/>
+		</Unit>
+		<Unit filename="/home/reza/development/replxx/cpp-readline/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpp-readline\"/>
+		</Unit>
+		<Unit filename="/home/reza/development/replxx/cpp-readline/cmake/modules/FindReadline.cmake">
+			<Option virtualFolder="CMake Files\cpp-readline\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/reza/development/replxx/cpp-readline/cmake/modules/FindReadline.cmake">
+			<Option virtualFolder="CMake Files\cpp-readline\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/reza/development/replxx/cpp-readline/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpp-readline\src\"/>
+		</Unit>
+		<Unit filename="/home/reza/development/replxx/cpp-readline/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpp-readline\src\"/>
+		</Unit>
+		<Unit filename="/home/reza/development/replxx/cpp-readline/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpp-readline\example\"/>
+		</Unit>
+		<Unit filename="/home/reza/development/replxx/cpp-readline/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cpp-readline\example\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
